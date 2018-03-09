@@ -1,0 +1,14 @@
+/* Devices for screens less than 749px - usually phones */
+
+@media screen and (max-width: 749px) {
+	#blue, #black, #gray {
+		width: 130px;
+		height: 130px;
+		margin: auto;
+	}
+
+	.colorPalette {
+		text-align: center;
+	}
+}
+

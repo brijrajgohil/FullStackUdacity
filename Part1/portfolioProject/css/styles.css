@@ -1,0 +1,67 @@
+/* General CSS for desktop and common styles */
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+@media screen and (min-width: 751px) {
+	footer {
+		float: right;
+		margin-left: 100px;
+	}
+}
+
+
+header {
+	border-bottom: 5px solid #7d97ad;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 80%;
+}
+
+article.foot {
+	border: 1px solid black;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.box {
+	margin-top: 10px;
+}
+
+.foot {
+	overflow: scroll;
+}
+
+
+#featured {
+	margin-top: 50px;
+}
+
+
+#blue, #black, #gray {
+	width: 100px;
+	height: 100px;
+}
+
+#blue {
+	background-color: #02b3e4;
+
+}
+
+#black {
+	background-color: #2d3c49;
+
+}
+
+#gray {
+	background-color: #7d97ad;
+}
+
+
+
+
+
