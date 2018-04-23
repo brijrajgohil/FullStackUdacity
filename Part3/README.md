@@ -58,5 +58,7 @@ ORDER BY num DESC;
 
 5. error_percentage
 ```
-CREATE VIEW error_percentage AS SELECT all_requests.date, (100.0*error_requests.num/all_requests.num) AS error_rate FROM all_requests, error_requests WHERE all_requests.date = error_requests.date;
+CREATE VIEW error_percentage AS SELECT all_requests.date,
+(100.0*error_requests.num/all_requests.num) AS error_rate FROM all_requests, error_requests
+WHERE all_requests.date = error_requests.date;
 ```
